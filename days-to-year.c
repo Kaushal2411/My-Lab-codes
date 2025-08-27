@@ -4,8 +4,8 @@ int main () {
     int days, years, months, remaining_days;
     printf("Enter number of days\n");
     scanf("%d", &days);
-    years = days / 365;
-    remaining_days = days % 365;            
+    years = days / 360;
+    remaining_days = days % 360;            
     months = remaining_days / 30;           
     remaining_days = remaining_days % 30;   
     printf("%d days is equivalent to %d years, %d months and %d days\n", days, years, months, remaining_days);
